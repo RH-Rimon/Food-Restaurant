@@ -37,14 +37,6 @@ padding: 0px;
 position: static;
 width: 274px;
 height: 38px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 16;
-padding: 0px;
-
 opacity: 0.8;
 
 /* Inside Auto Layout */
@@ -93,8 +85,148 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 border-radius: 8px;
-
 background: rgb(82, 195, 3);
 border: 0;
     
+}
+
+/* Card Box Part */
+
+.card-box{
+
+    margin: 0px 300px 0px 300px;
+}
+
+.card{
+
+    display: flex;
+    gap: 25px;
+position: static;
+width: 424px;
+height: 522px;
+margin-bottom: 70px;
+
+}
+
+.title{
+position: static;
+width: 691px;
+height: 172px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16;
+padding: 100px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 300px 0px 200px;
+}
+
+.para{
+
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.head-01{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 16px;
+}
+
+.image-01{
+
+    border-radius: 16px;
+    /* Rectangle 1 */
+position: static;
+width: 424px;
+height: 283px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-top: 39px;
+}
+
+.paragraph-03{
+
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    margin-left: 100px;
+
+background: rgba(82, 195, 3, 0.15);
+/* Frame 9 */
+position: static;
+width: 187px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 14px 32px 14px 32px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.header-02{
+
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 25px;
+}
+
+
+.paragraph-05{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+
+.button-02{
+
+    border-radius: 8px;
+background: rgb(82, 195, 3);
+position: static;
+width: 212px;
+height: 65px;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin: 75px 555px 0px 555px;
+border: 0px;
 }

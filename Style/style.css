@@ -235,7 +235,7 @@ border: 0px;
 
 width: 1920px;
 height: 671px;  
-
+margin-top: 100px;
 }
 
 .about{
@@ -283,7 +283,7 @@ margin-bottom: 20px;
 }
 
 .paragraph-08{
-    color: rgb(16, 16, 16);
+color: rgb(16, 16, 16);
 font-family: Work Sans;
 font-size: 32px;
 font-weight: 600;
@@ -295,12 +295,35 @@ opacity: 0.7;
 margin: 0px 10px; */
 }
 
+.images_file{
 
-.image-08{
+ /* Frame 20 */
+position: static;
+width: 260.23px;
+height: 40px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
 
-    width: 14.72px;
-height: 31.39px;
-padding-left: 50%;
 
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.images{
 
+ /* Vector */
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0;
+top: 0;
+
+background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%,rgb(0, 106, 255) 104.264%);
 }
